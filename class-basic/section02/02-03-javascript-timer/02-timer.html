@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>타이머실습</title>
+  <script>
+    function 타이머() {
+      let 시간 = 180;
+
+      setInterval(function(){
+
+        const 분 = Math.floor(시간 / 60)
+        const 초 = 시간 % 60
+        console.log("남은 시간:" + 분 + ":" + 초)
+        시간 = 시간 - 1
+      },1000)
+    }
+  </script>
+</head>
+<body>
+  <button onclick="타이머()">타이머시작</button>
+</body>
+</html>

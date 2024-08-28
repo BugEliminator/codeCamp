@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.배경화면 {
+  width: 1920px;
+  height: 1208px;
+  background-color: #491449;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.header {
+  width: 1920px;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.좌측헤더 {
+  width: 376px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.우측헤더 {
+  width: 163px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.아이콘자리 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid red;
+  margin-left: 20px;
+}
+
+.회원등급배지 {
+  display: flex;
+  align-items: center;
+  width: 131px;
+  height: 48px;
+}
+
+.회원등급배지 .아이콘자리 {
+  margin-right: 10px;
+}
+
+.회원등급배지 .수강생{
+  margin-right: 5px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.중앙우측헤더 {
+  width: 1360px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.서치바 {
+  width: 920px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #955C98;
+  color: #EFE6EF;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+
+}
+
+.서치바 .아이콘자리 {
+  margin-right: 20px;
+}
+
+.사이드메뉴 {
+  width: 400px;
+  height: 1048px;
+  background-color: #713574;
+  border-radius: 8px 0 0 8px;
+  border: 1px 0 1px 1px;
+  padding: 20px;  
+}
+
+.Frame165 {
+  width: 360px;
+  height: 632px;
+}
+
+.채널명영역 {
+  width: 360px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.서약서자세히보기버튼 {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.서약서자세히보기버튼 .서약서 {
+  width: 150px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #491449;
+  margin-left: 15px;
+}
+
+.divider {
+  width: 360px;
+  height: 1px;
+  border: 1px solid #955C98;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.Frame158 {
+  width: 360px;
+  height: 488px;
+  border: 3px solid white;
+}
+
+.코드캠프 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.채널액션아이콘영역 {
+  display: flex;
+}
+
+.메인화면 {
+  width: 700px;
+  height: 1048px;
+  background-color: #D5BCE4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.메인화면-2 {
+  width: 700px;
+  height: 1048px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/0a5a/30ea/ff0b430b29cbf01ea1b74fa23820d0ee?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l581tJKaUthyaKdr4o2yfV3kf4vgn7PXGAyASoTsYMrv9Ykd1vrt9fVgdtVQIqhlHA7UCvCBJEoQSZnMK-PDncnsnnlOwvzbr6acu-3qh~9PFUNfpzuEud4IQ3i2sgruz3RlQt9j-4lu5ZY2E8AJQdHhNT2fDvLwsvy56cAP8MQa4KpCZpG4WoZArzzfsVP93WT27sqbXjphe6fD4QaoQ1YaQktyauqlSLhKbTN9FO5ty3y3Mhox2OQErIj-mEnE6sKCrE1npEGut5LFZV3Cgvlmsnhtvu52nLBEU9w1cNuVLeL6IrI2R9rnjLeocTSuBnIQGMYvA8arLsskApfZtg__);
+  background-repeat: no-repeat; /* 이미지 반복을 없앰 */
+  background-size: cover; /* 이미지 크기를 화면에 맞춤 */
+  background-position: center; /* 이미지 위치를 가운데로 설정 */
+}
+
+.회원가입타이틀 {
+  width: 560px;
+  height: 112px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: #491449;
+  margin: 30px 0;
+}
+
+.Frame207 {
+  width: 560px;
+  height: 548px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.입력칸 {
+  width: 448px;
+  height: 44px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.이름 {
+  width: 120px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.컨텐츠영역{
+  width: 320px;
+  height: 44px;
+  gap: 4px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: 1px solid #c7c7c7;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Frame211 {
+  width: 448px;
+  height: 92px;
+  display: grid;
+  gap: 12px;
+}
+.Frame208 {
+  width: 448px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Frame208 span {
+  width: 67px;
+  height: 24pxß;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  color: #955C98;
+}
+
+.Frame208 button {
+  width: 136px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 1px solid #491449;
+  gap: 10px;
+  padding: 8px 12px;
+  background: white;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.Frame206 {
+  width: 560px;
+  height: 920px;
+  padding: 0 56px;
+  gap: 20px;
+}
+
+.Frame210 {
+  width: 448px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Frame210 button {
+  width: 136px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  gap: 10px;
+  background-color: #C7C7C7;
+  color: #F2F2F2;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+}
+
+.입력칸 textarea {
+  width: 296px;
+  height: 100px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.자기소개 {
+  width: 448px;
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.성별영역 {
+  width: 448px;
+  height: 44px;
+  display: flex;
+}
+
+.성별영역 span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.요소영역 {
+  width: 168px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.Frame206 {
+  width: 560px;
+  height: 92px;
+}
+
+.약관동의영역 {
+  width: 448px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.약관동의영역 div {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+.Frame206 button {
+  width: 448px;
+  height: 48px;
+  background-color: #C7C7C7;
+  color: #F2F2F2;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  margin-top: 15px;
+}

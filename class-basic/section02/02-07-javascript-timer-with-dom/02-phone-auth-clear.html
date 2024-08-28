@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    let 철수의상자
+    function 인증번호랑시간요청기능() {
+      clearInterval(철수의상자)
+      const 랜덤한숫자 = Math.random()
+      const 여섯자리숫자 = Math.floor(랜덤한숫자 * 1000000)
+      const 인증번호 = String(여섯자리숫자).padStart(6,"0")
+      document.getElementById("인증번호나오는곳").innerText = 인증번호
+  
+
+      let 시간 = 179;
+      철수의상자 = setInterval(function(){
+        const 분 = String(Math.floor(시간 / 60)).padStart(2,"0")
+        const 초 = String(시간 % 60).padStart(2,"0")
+        시간 = 시간 - 1
+        document.getElementById("남은시간").innerText = `${분}:${초} `
+      },1000)
+      
+      //clearTimeout()
+
+      //document.getElementById("버튼").disabled = true
+    }
+
+  </script>
+</head>
+<body>
+  <div id="인증번호나오는곳">000000</div>
+  <button id="버튼" onclick="인증번호랑시간요청기능()">인증번호 요청하기</button>
+  <div id="남은시간">03:00</div>
+</body>
+</html>
